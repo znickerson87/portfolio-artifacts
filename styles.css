@@ -1,0 +1,80 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color:#fc9;
+    color: #036;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+a {
+    background: antiquewhite;
+    color:darkolivegreen;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 0.25em;
+}
+
+a:hover {
+    background: darkolivegreen;
+    color: antiquewhite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    margin:0;
+    margin-bottom: 0.25em;
+}
+
+h1 { font-size: 1.75em; }
+h2 { font-size: 1.25em; }
+h3 { font-size: 0.75em;}
+
+#container {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+header img {
+    width: 10em;
+    padding-right: 2em;
+    float: left;
+}
+
+nav ul {
+    font-size: 0.8em;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.25em;
+}
+
+main {
+    margin-top: 1em;
+    margin-left: 12em;
+}
+
+article {
+    margin-bottom: 4em;
+}
+
+article img {
+    max-width: 100%;
+}
+
+footer {
+    clear: all;
+    margin-top: 3em;
+    text-align: center;
+}
+
+#footer a {
+    display: inline-block;
+    padding: 0.5em;
+}
